@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Bolaji Profile.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Welcome to The Choir Website </title>
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <marquee behavior="" direction="left">Stay Tuned for our next program: </marquee>
+</div>
+<div class="header">
+<img src="header.jpg" alt="header">
+</div>
+<div class="nav-bar">
+
+  <a href="Home.html"><button type="button">Home</button></a>
+  <a href="About Choir.html"><button type="button">About Choir</button></a>
+  <a href="Contact Us.html"><button type="button">Contact Us</button></a>
+  <div class="dropdown">
+    <button type="dropbtn">Gallary</button>
+    <div class="dropdown-content">
+      <a href="Picture Gallary.html">Picture Gallary</a>
+      <a href="Video Gallary.html">Video Gallary</a>
+    </div>
+  </div>
+</div>
+<div class="main-content">
+  <div class="left-content">
+    <div class="image-area">
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bolaji.jpg"></center>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bj 1.jpeg"></center>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bj 2.jpeg"></center>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bj 3.jpeg"></center>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bj 4.jpeg"></center>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="Bj 5.jpeg"></center>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    </div>
+</div>
+<div class="right-content">
+  <div class="text-area">
+    <p>Abolaji Oluwatosin Ajose-Oso, an accomplished individual with a rich tapestry of talents and experiences, currently holds the esteemed position of choir master at St. Jude's Anglican Church in Ojota. <br>
+      Abolaji's educational journey began at Yaba College of Technology, where he earned his Ordinary National Diploma (OND), laying the foundation for his academic pursuits.
+
+      Driven by a profound passion for music, Abolaji furthered his studies, delving into the intricacies of Piano Performance at the Musical Society of Nigeria (MUSON). <br>
+      This dedicated pursuit of musical excellence equipped him with a profound understanding of the nuances of piano and performance, shaping him into the accomplished musician he is today. <br>
+      
+      Beyond his musical endeavors, Abolaji has carved a niche for himself in the corporate world as a technical analyst. <br>
+      His analytical acumen, honed through education and professional experience, allows him to navigate the complexities of data with precision and expertise. <br>
+      Abolaji's love for music remains a constant thread in the intricate fabric of his life. <br>
+      His role as choir master reflects not only his musical prowess but also his commitment to fostering a vibrant and harmonious musical community within the church. <br>
+      On the personal front, Abolaji is a family man, happily married and blessed with a child. <br>
+      His dedication to both his professional career and his role as a husband and father mirrors the harmonious balance he brings to every aspect of his life. <br>
+      In essence, Abolaji Oluwatosin Ajose-Oso emerges as a multifaceted individual, seamlessly blending his roles as a choir master, technical analyst, husband, and father. <br>
+      His journey, marked by educational achievements, musical excellence, and professional success, paints a portrait of a well-rounded and accomplished individual contributing meaningfully to both the world of music and the corporate realm.…… </p>
+</div>
+</div>
+</div>
+<div class="footer">
+  <p>Media Team &copy2023  All rights reserved</p>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+  
+  </script>
+</html>

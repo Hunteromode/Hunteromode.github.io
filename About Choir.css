@@ -1,0 +1,202 @@
+/* The universal command the control all content in the page */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 1350px;
+    height: 730px;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+}
+.info{
+    height: 35px;
+    width: 100%;
+    background-color: blueviolet;
+    border: 2px solid red;
+    padding: 5px;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+}
+marquee{
+color: rgb(70, 19, 19);
+font-size: large;
+}
+.header{
+    height: 175px;
+    width: 100%;
+    border: 2px solid red;
+}
+img{
+    height: 175px;
+    width: 100%;
+}
+/* The <div> container nav-bar - that house the navigation bar*/
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    border: 3px solid red;
+    padding-top: 5px;
+    padding-left: 900px; 
+}
+/* The <div> - that house all buttons in the nav-bar */
+button{
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    background-color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    }
+    /* The <div> - that house the hover*/
+    button:hover{
+        background-color: rgb(224, 15, 15);
+    }
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: aqua;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: green;
+        box-shadow: 0px 8px 16px 0px;
+        min-width: 160px;
+        
+      }
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: rgb(224, 15, 15);}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .main-content{
+        height: 135%;
+        width: 100%;    
+        text-align: center;
+        background-image:url(background.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+  .content1{
+    height:50% ;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+   .about-choir{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+   }
+   .about-musicdirector{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+   }
+  .about-choirmaster{
+  height: 95%;
+  width: 25%;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  }
+ .about-orgnist{
+  height: 95%;
+  width: 25%;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-grow: 1;
+  }
+  .content2{
+    height:50% ;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    .about-spoleader{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+   .about-altoleader{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .about-tenorleader{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .about-bassleader{
+    height: 95%;
+    width: 25%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+      .footer{
+      height: 50px;
+      width: 100%;
+      text-align: center;
+      padding-top: 5px ;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      text-align: center;
+      font-weight: large;
+      color: black;
+      border: 3px solid red;
+      background-color: blueviolet;
+      border-bottom-left-radius:15px;
+      border-bottom-right-radius:15px;
+      }
